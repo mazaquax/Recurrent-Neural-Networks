@@ -2,7 +2,7 @@
 Some personal projects on Recurrent Neural Networks
 # Avito_text_cat_classification.ipynb
 The dataset consists of ~1 million sale announcements from Avito. The problem is to predict if the announcement contains a mobile number of a seller or not. </br>
-Data features have 3 types: text, categorical, numerical. I consider two ways of solving the problem and compare them. One feature is called **Category**, to compare these two ways I will use Avarage ROC AUC metric among categories.
+Data features have 3 types: text, categorical, numerical. I consider two ways of solving the problem and compare them. One feature is called **Category**, to compare these two ways I will use **Avarage ROC AUC metric among categories**.
 ### 1. Ensemble method
 Here I implement ensemble methods for independent feature subsets and than again use an ensemble to obtain final predictions. Ensemble consists of 4 models: KNN, Naive Bayes, Logistic Regression, XGBoost.
 ### 2. Recurrent Neural Network method
